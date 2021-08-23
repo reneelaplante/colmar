@@ -1,0 +1,35 @@
+/*Global Styles*/
+:root {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Nav Styles*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 24px;
+    font-size: 1.5em;
+}
+
+nav li {
+    display: inline-flex;
+    margin-right: 24px;
+    padding: 8px;
+}
+
+/*Header Styles*/
+
+
+/*Main Styles*/
+
+
+/*Footer Styles*/
