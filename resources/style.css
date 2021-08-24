@@ -4,6 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3d3d3d;
 }
 
 h1 {
@@ -66,6 +67,13 @@ header .cta {
 }
 
 /*Main Styles*/
+
+/*Articles*/
+#articles {
+    display: flex;
+}
+
+
 
 
 /*Footer Styles*/
