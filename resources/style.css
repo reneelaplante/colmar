@@ -11,6 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 64px;
 }
 
 nav span {
@@ -23,7 +24,6 @@ nav span {
 nav li {
     display: inline-flex;
     margin-right: 24px;
-    padding: 8px;
 }
 
 /*Header Styles*/
