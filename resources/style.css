@@ -22,7 +22,6 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    line-height: 0;
     font-weight: lighter;
 }
 
@@ -160,4 +159,59 @@ header .cta {
     padding: 16px;
 }
 
+/*Thesis Exhibit*/
+#thesis-exhibit #project-container {
+    display: flex;
+}
+
+#thesis-exhibit h2 {
+    text-align: center;
+}
+
+#thesis-exhibit .video {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-right: 24px;
+    width: 60%;
+    align-items: flex-start;
+    padding: 32px 24px;
+}
+
+#thesis-exhibit .project-list {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 16px;
+}
+
+#thesis-exhibit .project {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:16px;
+}
+
+#thesis-exhibit .project img {
+    width: 35%;
+    height: auto;
+    margin-right: 16px;
+}
+
+#highlight {
+    background-color: var(--light-gray);
+}
+
 /*Footer Styles*/
+
+footer #footer-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 24px;
+}
+
+#footer-text li {
+    display: inline-flex;
+    padding: 12px;
+    justify-content: flex-end;
+}
