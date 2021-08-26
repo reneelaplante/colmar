@@ -6,11 +6,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3d3d3d;
     border: opx;
+    --light-gray: #dfdfdf;
+    --dark-gray: #3d3d3d;
 }
 
 h1 {
     font-size: 2.5em;
-    color: #3d3d3d;
+    color: var(--dark-gray);
     font-weight: bold;
 }
 
@@ -21,11 +23,12 @@ h2 {
 h3 {
     font-size: 1.5em;
     line-height: 0;
+    font-weight: lighter;
 }
 
 h4 {
     font-size: 1.25em;
-    color: #3d3d3d;
+    color: var(--dark-gray);
     font-weight: bolder;
 }
 
@@ -47,6 +50,7 @@ nav span {
     align-items: center;
     padding-left: 24px;
     font-size: 1.5em;
+    justify-content: flex-end;
 }
 
 nav li {
@@ -57,7 +61,7 @@ nav li {
 /*Header Styles*/
 header {
     display: flex;
-    background-color: #cccccc;
+    background-color: var(--light-gray);
     padding: 32px 24px;
     justify-content: flex-start;
     align-items: center;
@@ -76,7 +80,7 @@ header .intro {
 header .cta {
     width: 70%;
     color: white;
-    background-color: #3d3d3d;
+    background-color: var(--dark-gray);
     padding: 5px 0;
     text-align: center;
 }
@@ -106,7 +110,7 @@ header .cta {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border-left: 1px solid #cccccc;
+    border-left: 1px solid var(--light-gray);
     padding-top: 16px;
 }
 
@@ -115,7 +119,7 @@ header .cta {
     align-items: center;
     justify-content: flex-start;
     padding:16px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid var(--light-gray);
 }
 
 #articles .article img {
@@ -125,7 +129,35 @@ header .cta {
 }
 
 #highlight {
-    background-color: #cccccc;
+    background-color: var(--light-gray);
+}
+
+/*Courses*/
+#start-learning {
+    background-color: var(--light-gray);
+}
+
+#start-learning h2 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+#course-container {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 56px;
+    padding-bottom: 32px;
+}
+
+#course-container article {
+    width: 30%;
+    margin: 16px;
+    background-color: white;
+}
+
+#course-container .course-description {
+    padding: 16px;
 }
 
 /*Footer Styles*/
