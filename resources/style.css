@@ -248,4 +248,32 @@ footer #footer-text{
         padding: 25px;
     }
 
+    /*Header*/
+    header {
+        display: flex;
+        background-color: var(--light-gray);
+        align-items: center;
+        justify-content: center;
+        flex-flow: column wrap;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    header .hero {
+        width: 100%;
+    }
+    
+    header .intro {
+        width: 90%;
+        margin: 32px auto;
+    }
+    
+    header .cta {
+        width: 95%;
+        color: white;
+        background-color: var(--dark-gray);
+        padding: 5px 0;
+        text-align: center;
+    }
+
 }
