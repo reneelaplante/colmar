@@ -10,6 +10,10 @@
     --dark-gray: #3d3d3d;
 }
 
+.mobile {
+    display: none;
+}
+
 h1 {
     font-size: 2.5em;
     color: var(--dark-gray);
@@ -64,6 +68,7 @@ header {
     padding: 32px 24px;
     justify-content: flex-start;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 header .hero {
@@ -166,6 +171,7 @@ header .cta {
 
 #thesis-exhibit h2 {
     text-align: center;
+    padding: 32px;
 }
 
 #thesis-exhibit .video {
@@ -214,4 +220,32 @@ footer #footer-text{
     display: inline-flex;
     padding: 12px;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width:600px) {
+    .mobile {
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    /*Nav*/
+    nav .mobile {
+        height: 64px;
+        padding: 25px;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav .nav-icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+    }
+
 }
