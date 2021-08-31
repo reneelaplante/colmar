@@ -316,4 +316,39 @@ footer #footer-text{
         background-color: white;
     }
 
+    /*Courses*/
+    #start-learning {
+        background-color: white;
+    }
+
+    #start-learning img {
+        display: none;
+    }
+    
+    #start-learning h2 {
+        text-align: center;
+        padding-top: 32px;
+    }
+
+    #start-learning h3 {
+        background-color: var(--light-gray);
+        padding: 16px;
+    }
+    
+    #course-container {
+        display: inline-flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        padding-bottom: 8px;
+        align-items: flex-start;
+    }
+    
+    #course-container article {
+        width: 100%;
+    }
+    
+    #course-container .course-description {
+        padding: 16px;
+    }
+
 }
