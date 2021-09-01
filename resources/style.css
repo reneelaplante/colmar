@@ -231,6 +231,10 @@ footer #footer-text{
         display: none;
     }
 
+    hr {
+        margin: 32px 0;
+        border: solid 1px var(--light-gray);
+    }
     /*Nav*/
     nav .mobile {
         height: 64px;
@@ -319,6 +323,7 @@ footer #footer-text{
     /*Courses*/
     #start-learning {
         background-color: white;
+        margin: 0;
     }
 
     #start-learning img {
@@ -327,28 +332,31 @@ footer #footer-text{
     
     #start-learning h2 {
         text-align: center;
-        padding-top: 32px;
     }
 
     #start-learning h3 {
         background-color: var(--light-gray);
         padding: 16px;
+        margin: 0;
     }
     
     #course-container {
         display: inline-flex;
         flex-flow: column wrap;
         justify-content: flex-start;
-        padding-bottom: 8px;
+        padding: 0 0 8px 0;
         align-items: flex-start;
+        width: 100%;
+        margin: 0;
     }
     
     #course-container article {
         width: 100%;
+        margin: 0;
     }
     
     #course-container .course-description {
-        padding: 16px;
+        padding: 8px;
     }
 
 }
