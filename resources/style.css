@@ -233,7 +233,7 @@ footer #footer-text{
 
     hr {
         margin: 32px 0;
-        border: solid 1px var(--light-gray);
+        border: solid .5px var(--light-gray);
     }
     /*Nav*/
     nav .mobile {
@@ -359,4 +359,36 @@ footer #footer-text{
         padding: 8px;
     }
 
+    /*Thesis Exhibits*/
+    #thesis-exhibit #project-container {
+        display: flex;
+    }
+    
+    #thesis-exhibit h2 {
+        text-align: center;
+        padding: 0;
+    }
+    
+    #thesis-exhibit .video {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        padding: 16px 0;
+    }
+    
+    #thesis-exhibit .project-list {
+        display: none;
+    }
+
+    /*Footer Styles*/
+
+    footer #footer-text{
+        display: flex;
+        justify-content: space-between;
+        margin: 16px 24px;
+    }
+
+    #footer-text li {
+        display: none;
+    }
 }
